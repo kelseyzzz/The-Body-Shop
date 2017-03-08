@@ -1,0 +1,106 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 3000px;
+  width: 100%; }
+
+/* 2. Content ================================= */
+.header {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #ebf2e1; }
+  .header h1 {
+    position: absolute; }
+  .header .blue-leaf {
+    height: 40%;
+    width: 30%;
+    display: inline-block; }
+    .header .blue-leaf img {
+      max-width: 100%;
+      max-height: 100%; }
+  .header .purple-leaf {
+    width: 32%;
+    display: inline-block;
+    float: right; }
+    .header .purple-leaf img {
+      max-width: 100%;
+      max-height: 100%; }
+  .header .green-leaf {
+    height: 100%;
+    margin-bottom: 0;
+    display: inline; }
+    .header .green-leaf img {
+      max-width: 100%;
+      max-height: 100%;
+      transform: rotateZ(90deg);
+      position: absolute;
+      top: 48%; }
+  .header .green-leaf-two {
+    height: 100%;
+    display: inline-block;
+    float: right; }
+    .header .green-leaf-two img {
+      max-width: 100%;
+      max-height: 100%;
+      transform: rotateZ(90deg);
+      position: absolute;
+      top: 48%;
+      left: 45%; }
+  .header .green-leaf-three {
+    height: 100%;
+    width: 100%;
+    display: inline;
+    float: right; }
+    .header .green-leaf-three img {
+      max-width: 100%;
+      max-height: 100%;
+      transform: rotateZ(90deg);
+      position: absolute;
+      top: 48%; }
+  .header .green-leaf-four {
+    height: 100%;
+    display: inline-block;
+    float: right; }
+    .header .green-leaf-four img {
+      max-width: 100%;
+      max-height: 100%;
+      transform: rotateZ(90deg);
+      position: absolute;
+      top: 48%;
+      right: 0%; }
+
+.part-two {
+  height: 300px; }
+
+.monkey-video {
+  position: relative;
+  width: 300px;
+  height: 100vh; }
+  .monkey-video video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,168 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	height: 3000px;
+	width: 100%;
+}
+
+
+.content {
+}
+
+
+
+/* 2. Content ================================= */
+
+.header {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	background: #ebf2e1;
+
+	h1 {
+		position: absolute;
+	}
+
+
+	.blue-leaf {
+			height: 40%;
+			width: 30%;
+			display: inline-block;
+		
+
+			img {
+				max-width: 100%;
+				max-height: 100%;
+
+			}
+
+	}
+
+	.purple-leaf {
+		width: 32%;
+		display: inline-block;
+		float: right;
+
+		img {
+			max-width: 100%;
+			max-height: 100%;
+
+
+		}
+	}
+
+	.green-leaf {
+		height: 100%;
+		margin-bottom: 0;
+		display: inline;
+
+
+
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			transform: rotateZ(90deg);
+			position: absolute;
+			top: 48%;
+
+		}
+
+	}
+
+	.green-leaf-two {
+		height: 100%;
+		display: inline-block;
+		float: right;
+		
+
+			img {
+				max-width: 100%;
+				max-height: 100%;
+				transform: rotateZ(90deg);
+				position: absolute;
+				top: 48%;
+				left: 45%;
+
+			}
+
+	}
+
+	.green-leaf-three {
+		height: 100%;
+		width: 100%;
+		display: inline;
+		float: right;
+
+			img {
+				max-width: 100%;
+				max-height: 100%;
+				transform: rotateZ(90deg);
+				position: absolute;
+				top: 48%;
+			}
+	}
+
+	.green-leaf-four {
+		height: 100%;
+		display: inline-block;
+		float: right;
+
+			img {
+				max-width: 100%;
+				max-height: 100%;
+				transform: rotateZ(90deg);
+				position: absolute;
+				top: 48%;
+				right: 0%;
+			}
+	}
+
+
+}
+
+
+.part-two {
+	height: 300px;
+}
+
+
+.monkey-video {
+		position: relative;
+		width: 300px;
+		height: 100vh;
+	video {
+		 position: fixed;
+		  top: 50%; left: 50%;
+		  z-index: 1;
+		  min-width: 100%;
+		  min-height: 100%;
+		  width: auto;
+		  height: auto;
+		  transform: translate(-50%, -50%);
+	}
+}
+
+
+
+
